@@ -5,18 +5,17 @@ body {
 	font-family: 'Roboto', sans-serif;
 	min-width: 1185px;
 }
+li {
+	padding-bottom: 5px;;
+}
 .container {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	/* margin-top: 100px; */
-	/* margin: auto; */
 	min-height: 100vh;
 	padding-left: 10%;
 	padding-right: 10%;
-	/* padding-top: 5%; */
 
-	/* overflow: hidden; */
 }
 .demonstration {
 	position: relative;
@@ -41,9 +40,6 @@ body {
 .active {
 	display: block !important;
 }
-/* .noactive {
-	display: none;
-} */
 .male-muscles {
 	width: 538px;
 	height: 638px;
@@ -52,18 +48,15 @@ body {
 
 .description {
 	padding: 0 5%;
-	/* background: rgb(170, 165, 165); */
 	display: none;
 	height: 638px;
 	width: 44vw;
-	/* overflow: hidden; */
+	max-width: 800px;
 	overflow-y:scroll;
 }
 .body-head{
 	width: 100%;
-	/* height: 10%; */
 	height: 65px;
-	/* background-color: rgba(233, 146, 146, 0.356); */
 }
 .neck {
 	height: 53px;
@@ -72,23 +65,18 @@ body {
 }
 
 .neck-1 {
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 75px;
 }
 .neck-2 {
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 134px;
 }
 .neck-3{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 36px;
 }
 .neck-4{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 147px;
 }
 .neck-5{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 28px;
 }
 .neck-6{
@@ -96,15 +84,12 @@ body {
 	width: 44px;
 }
 .neck-7{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 49px;
 }
 .neck-8{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 35px;
 }
 .neck-9{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 88px;
 }
 
@@ -115,39 +100,30 @@ body {
 	justify-content: left;
 }
 .shoulders-1 {
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 53px;
 }
 .shoulders-2{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 39px;
 }
 .shoulders-3{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 71px;
 }
 .shoulders-4{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 27px;
 }
 .shoulders-5{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 20px;
 }
 .shoulders-6{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 118px;
 }
 .shoulders-7{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 32px;
 }
 .shoulders-8{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 115px;
 }
 .shoulders-9{
-	/* background-color: rgba(128, 117, 117, 0.356); */
 	width: 67px;
 }
 
@@ -159,43 +135,33 @@ body {
 	justify-content: left;
 }
 .pectoral-1{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 64px;
 }
 .pectoral-2{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 117px;
 }
 .pectoral-3{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 34px;
 }
 .pectoral-4{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 100px;
 }
 .pectoral-5{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 13px;
 }
 .pectoral-6{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 13px;
 }
 .pectoral-7{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 13px;
 }
 .pectoral-8{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 115px;
 }
 .pectoral-9{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 17px;
 }
 .pectoral-10{
-	/* background-color: rgba(196, 199, 40, 0.356); */
 	width: 50px;
 }
 
@@ -206,31 +172,24 @@ body {
 	justify-content: left;
 }
 .back-1 {
-	/* background-color: rgba(72, 199, 40, 0.356); */
 	width: 70px;
 }
 .back-2 {
-	/* background-color: rgba(72, 199, 40, 0.356); */
 	width: 111px;
 }
 .back-3 {
-	/* background-color: rgba(72, 199, 40, 0.356); */
 	width: 34px;
 }
 .back-4 {
-	/* background-color: rgba(72, 199, 40, 0.356); */
 	width: 100px;
 }
 .back-5 {
-	/* background-color: rgba(72, 199, 40, 0.356); */
 	width: 30px;
 }
 .back-6 {
-	/* background-color: rgba(72, 199, 40, 0.356); */
 	width: 109px;
 }
 .back-7 {
-	/* background-color: rgba(72, 199, 40, 0.356); */
 	width: 83px;
 }
 /* Low-back */
@@ -240,31 +199,24 @@ body {
 	justify-content: left;
 }
 .low-back-1 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 70px;
 }
 .low-back-2 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 105px;
 }
 .low-back-3 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 190px;
 }
 .low-back-4 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 30px;
 }
 .low-back-5 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 50px;
 }
 .low-back-6 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 17px;
 }
 .low-back-7 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 79px;
 }
 
@@ -275,31 +227,24 @@ body {
 	justify-content: left;
 }
 .gluteus-1 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 64px;
 }
 .gluteus-2 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 124px;
 }
 .gluteus-3 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 164px;
 }
 .gluteus-4 {
-	/* background-color: rgba(119, 88, 126, 0.356); */
 	width: 24px;
 }
 .gluteus-5 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 75px;
 }
 .gluteus-6 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 20px;
 }
 .gluteus-7 {
-	/* background-color: rgba(172, 40, 199, 0.356); */
 	width: 67px;
 }
 
@@ -310,39 +255,30 @@ body {
 	justify-content: left;
 }
 .thigh-1 {
-		/* background-color: rgba(90, 199, 40, 0.356); */
 		width: 76px;
 }
 .thigh-2 {
-	/* background-color: rgba(90, 199, 40, 0.356); */
 	width: 37px;
 }
 .thigh-3 {
-	/* background-color: rgba(90, 199, 40, 0.356); */
 	width: 25px;
 }
 .thigh-4 {
-	/* background-color: rgba(90, 199, 40, 0.356); */
 	width: 34px;
 }
 .thigh-5 {
-	/* background-color: rgba(90, 199, 40, 0.356); */
 	width: 192px;
 }
 .thigh-6 {
-	/* background-color: rgba(90, 199, 40, 0.356); */
 	width: 31px;
 }
 .thigh-7{
-	/* background-color: rgba(90, 199, 40, 0.356); */
 	width: 31px;
 }
 .thigh-8{
-	/* background-color: rgba(90, 199, 40, 0.356); */
 	width: 38px;
 }
 .thigh-9 {
-	/* background-color: rgba(90, 199, 40, 0.356); */
 	width: 75px;
 }
 
@@ -353,39 +289,30 @@ body {
 	justify-content: left;
 }
 .gastrocnemius-1 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 70px;
 }
 .gastrocnemius-2 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 37px;
 }
 .gastrocnemius-3 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 20px;
 }
 .gastrocnemius-4 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 41px;
 }
 .gastrocnemius-5 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 192px;
 }
 .gastrocnemius-6 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 10px;
 }
 .gastrocnemius-7 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 85px;
 }
 .gastrocnemius-8 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 10px;
 }
 .gastrocnemius-9 {
-	/* background-color: rgba(230, 217, 36, 0.356); */
 	width: 72px;
 }
 
@@ -396,28 +323,23 @@ body {
 	justify-content: left;
 }
 .soleus-1 {
-	/* background-color: rgba(110, 36, 230, 0.356); */
 	width: 80px;
 }
 .soleus-2 {
-	/* background-color: rgba(110, 36, 230, 0.356); */
 	width: 32px;
 }
 .soleus-3 {
-	/* background-color: rgba(110, 36, 230, 0.356); */
 	width: 22px;
 }
 .soleus-4 {
-	/* background-color: rgba(110, 36, 230, 0.356); */
 	width: 35px;
 }
 .soleus-5 {
-	/* background-color: rgba(110, 36, 230, 0.356); */
 	width: 373px;
 }
 
 /* Rest-parts */
 .rest-parts {
 	height: 47px;
-	/* background-color: rgba(62, 145, 87, 0.356); */
 }
+
